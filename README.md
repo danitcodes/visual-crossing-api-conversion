@@ -6,7 +6,7 @@
 
 ### Description
 
-The previously used legacy weather system, [Dark Sky API](https://darksky.net/dev), was acquired by Apple and is being shut down. [VisualCrossing](https://www.visualcrossing.com/weather-api) is the new weather source for Cascade Energy's weather data pipeline, and the old data needs to be seamlessly moved to the new API to go with the new data. Old data needs to be traceable to the origin, and none of the old data should be overwritten.
+The previously used legacy weather system, [Dark Sky API](https://darksky.net/dev), was acquired by Apple and is being shut down. [VisualCrossing](https://www.visualcrossing.com/weather-api) is the new weather source for Cascade Energy's weather data pipeline, and the old data needs to be seamlessly moved to the new API to go with the new data. Old data needs to be traceable to the origin, and none of the old data should be overwritten. This README serves as a roadmap for how to accomplish these goals.
 
 ### User Stories
 
@@ -19,7 +19,19 @@ The previously used legacy weather system, [Dark Sky API](https://darksky.net/de
 
 ### The API
 
+![DarkSky API to Visual Crossing Flowchart](assets/DarkSkyAPI_to_VisualCrossing.png "DarkSky API to VisualCrossing")
 
+### Technologies Required
+
+- [Postman](https://www.postman.com/), for testing API endpoints & operations
+- [VisualCrossing API](https://www.visualcrossing.com/)
+- [VS Code](https://code.visualstudio.com/), or code editor of your choice
+- Git & GitHub, or another version control system
+- RESTful API
+- JWTs & refresh tokens, for authorization
+- Node.js
+- TypeScript
+- A database like MongoDB with Mongoose
 
 ### Resources
 
