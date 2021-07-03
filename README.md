@@ -38,6 +38,7 @@ The previously used legacy weather system, [Dark Sky API](https://darksky.net/de
 - [SwaggerUI](https://swagger.io/), which would allow an admin or weather service to access and test out endpoints before an user interface is built or integrated
 - React & JSX, for the user interface
 - `create-react-app`
+- React hooks, or Redux for state management in front-end
 - npm or nvm
 - node.js
 - webpack
